@@ -15,3 +15,8 @@ yarn create react-app my-app --template typescript
 Tutorial:
 ----------
 https://www.typescriptlang.org/docs/handbook/react-&-webpack.html
+
+
+Git repo:
+----------
+https://github.com/jsphkhan/react-typescript-example
