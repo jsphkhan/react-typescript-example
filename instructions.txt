@@ -1,0 +1,17 @@
+React project created using Create react App. Uses TypeScript
+
+This is a sample app that has 2 pages - Page1, Page2
+It has Utilities and components. Uses Typescript
+
+Routes managed by react-router-dom: npm install @types/react-router-dom
+
+How to create React project with TypeScript:
+----------------------------------------------
+To start a new Create React App project with TypeScript, you can run:
+npx create-react-app my-app --template typescript
+# or
+yarn create react-app my-app --template typescript
+
+Tutorial:
+----------
+https://www.typescriptlang.org/docs/handbook/react-&-webpack.html
