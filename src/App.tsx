@@ -20,6 +20,7 @@ function App() {
       <Router>
         <React.Suspense fallback={<p>Loading ...</p>}>
           <div style={{backgroundColor: 'papayawhip'}}>
+            <Link to="/">Home</Link>
             <Link to={{pathname: '/page1'}}>Page1</Link>
             <Link to="/page2">Page2</Link>
           </div>
