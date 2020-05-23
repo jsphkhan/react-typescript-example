@@ -20,16 +20,26 @@ function App() {
       <Router>
         <React.Suspense fallback={<p>Loading ...</p>}>
           <div style={{backgroundColor: 'papayawhip'}}>
-            <Link to="/">Page1</Link>
+            <Link to={{pathname: '/page1'}}>Page1</Link>
             <Link to="/page2">Page2</Link>
           </div>
 
           <Switch>
             <Route exact path="/">
-              <Page1 name="Joseph" />
+              <div>
+                <h1>Home</h1>
+              </div>
+            </Route>
+            <Route path="/page1">
+              <Page1 name="Joseph"/>
             </Route>
             <Route path="/page2">
               <Page2 name="Ayaan" />
+            </Route>
+            <Route path="/*">
+              <div>
+                <h1>404</h1>
+              </div>
             </Route>
           </Switch>
         </React.Suspense>
